@@ -47,7 +47,7 @@ jobs:
       - name: Build Application
         run: pnpm build
       - name: Upload Build Artifact
-        uses: actions/upload-pages-artifract@v3
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
         # an artifact prepares your static files for GH Pages deployment
